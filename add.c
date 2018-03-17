@@ -1,7 +1,12 @@
 #include<stdio.h>
+int add()
+{
+	return 2+3;
+}
 int main(void)
 {
 	int a=10;
 	int b=20;
-	printf("%d\n",a+b);
+	int d=add();
+	printf("%d\n%d\n",a+b,d);
 }
