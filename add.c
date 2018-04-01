@@ -9,4 +9,5 @@ int main(void)
 	int b=20;
 	int d=add();
 	printf("%d\n%d\n",a+b,d);
+	printf("changed");
 }
