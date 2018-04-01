@@ -5,8 +5,5 @@ int add()
 }
 int main(void)
 {
-	int a=40;
-	int b=20;
-	int d=add();
-	printf("%d\n%d\n",a+b,d);
+	print("print");
 }
